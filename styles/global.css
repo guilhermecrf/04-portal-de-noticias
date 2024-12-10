@@ -66,3 +66,18 @@ img {
 main {
   margin-top: 2.5rem;
 }
+
+.content-tag {
+  background: var(--brand-color-dark);
+  color: var(--text-color-primary);
+
+  display: inline-block;
+  padding: .25rem .5rem;
+
+  border-radius: .25rem;
+  font: 500 .75rem/1.2 var(--font-family);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+
+  box-shadow: 0rem .25rem 1rem rgba(2, 6, 23, 0.25);
+}
