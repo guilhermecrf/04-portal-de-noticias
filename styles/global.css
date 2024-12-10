@@ -52,3 +52,19 @@ h2,
 h3 {
   font: inherit;
 }
+
+.container {
+  max-width: 80rem;
+  padding-inline: 2rem;
+  margin-inline: auto;
+}
+
+/* utility-first */
+
+.grid {
+  display: grid;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
+}
