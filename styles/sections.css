@@ -29,6 +29,10 @@
 
       padding: 1.5rem;
 
+      &:has(.text-lg) {
+        padding: .75rem;
+      }
+
       h2 {
         margin-top: .5rem;
       }
